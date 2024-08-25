@@ -9,7 +9,7 @@ export default function Results({ element, artwork }) {
   return (
     <div>
       <p>
-        <strong>{name}</strong>tu elemento es:{element}
+        <strong>{name}</strong>,tu elemento es: {element}
       </p>
       {artwork ? (
         <div className="artwork">
